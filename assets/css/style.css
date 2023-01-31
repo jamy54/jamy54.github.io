@@ -23,13 +23,24 @@ a:hover {
   text-decoration: none;
 }
 
+br {
+    display: block; /* makes it have a width */
+    content: ""; /* clears default height */
+    margin-top: 13px; /* change this to whatever height you want it */
+}
+
+
+.row {
+    margin-bottom: 5px;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 /*--------------------------------------------------------------
