@@ -23,7 +23,7 @@ a:hover {
   text-decoration: none;
 }
 
-br {
+.container .row div h2 hr br {
     display: block; /* makes it have a width */
     content: ""; /* clears default height */
     margin-top: 13px; /* change this to whatever height you want it */
@@ -41,6 +41,10 @@ h4,
 h5,
 h6 {
     font-family: "Raleway", sans-serif;
+}
+
+.logo h5 {
+    margin-bottom: 0px;
 }
 
 /*--------------------------------------------------------------
@@ -385,7 +389,7 @@ h6 {
 }
 
 .container {
-    max-width: 1080px !important;
+    max-width: 1150px !important;
 }
 
 #hero .container {
@@ -451,7 +455,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 60px 0 25px 0;
 }
 
 .section-bg {
@@ -565,7 +569,6 @@ section {
 }
 
 .about ul {
-  list-style: none;
   padding: 0;
   font-size: 15px;
 }
