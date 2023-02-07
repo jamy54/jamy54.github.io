@@ -384,6 +384,10 @@ h6 {
   right: 0;
 }
 
+.container {
+    max-width: 1080px !important;
+}
+
 #hero .container {
   z-index: 2;
 }
@@ -1285,9 +1289,12 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  color: #444444;
-  font-size: 14px;
-  background: #f7fbfe;
+    color: #444444;
+    font-size: 14px;
+    background: #f7fbfe;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
 }
 
 #footer .footer-top {
