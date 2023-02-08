@@ -1,4 +1,4 @@
-# Downloaded and Modified from the following Template
+# Modified from the following HTML Template
 
 Template Name: Lumia
 
