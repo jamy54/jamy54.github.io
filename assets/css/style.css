@@ -44,6 +44,18 @@ a:hover {
     margin-top: 13px; /* change this to whatever height you want it */
 }
 
+.bi-orcid {
+    background: url('https://lh4.googleusercontent.com/XuBjMLZOeQOkt0S2PZ7Wg-R0449qwBI93JubZ8M3AVCcluglGP2MZhYaLfEk_x5x9oM5GzePOhfAtZbQ78ZvLsNUv6yMP-1-l1GDbbvjrbA');
+    height: 25px;
+    width: 25px;
+    display: block;
+    background-size: contain;
+    filter: grayscale(100%);
+}
+
+    .bi-orcid:hover {
+        filter: sepia(100%) hue-rotate(190deg) saturate(500%);
+    }
 
 .row {
     margin-bottom: 5px;
@@ -143,7 +155,7 @@ h6 {
 
 .header-social-links a i {
   line-height: 0;
-  font-size: 40px;
+  font-size: 25px;
 }
 
 .header-social-links a:hover {
