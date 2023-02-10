@@ -44,6 +44,10 @@ a:hover {
     margin-top: 13px; /* change this to whatever height you want it */
 }
 
+hr {
+    margin: 7px 0;
+}
+
 .bi-orcid {
     background: url('https://lh4.googleusercontent.com/XuBjMLZOeQOkt0S2PZ7Wg-R0449qwBI93JubZ8M3AVCcluglGP2MZhYaLfEk_x5x9oM5GzePOhfAtZbQ78ZvLsNUv6yMP-1-l1GDbbvjrbA');
     height: 25px;
@@ -174,7 +178,8 @@ h6 {
     border-radius: 18%;
     /*border: 3px solid #6f6a6a;*/
     box-shadow: 1px 1px 20px 1px #c8c5c5;
-    max-width: 85%;
+    max-width: 78%;
+    height: 34%;
 }
 /*--------------------------------------------------------------
 # Navigation Menu
