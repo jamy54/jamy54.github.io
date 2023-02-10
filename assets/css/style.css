@@ -168,6 +168,14 @@ h6 {
   }
 }
 
+.img-fluid {
+    object-fit: cover;
+    object-position: center 40%;
+    border-radius: 18%;
+    /*border: 3px solid #6f6a6a;*/
+    box-shadow: 1px 1px 20px 1px #c8c5c5;
+    max-width: 85%;
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -175,7 +183,7 @@ h6 {
 * Desktop Navigation 
 */
 .navbar {
-  padding: 0;
+    padding: 0;
 }
 
 .navbar ul {
@@ -1325,6 +1333,7 @@ section {
     position: fixed;
     bottom: 0px;
     width: 100%;
+    max-height: 80px;
 }
 
 #footer .footer-top {
